@@ -2,14 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.U2D.Animation;
 
-public class PlayerKeyboardMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     [SerializeField] float speed=5;
     [SerializeField] Animator animator;
+    [SerializeField] List<PlayerClothesHelper> clothes; 
+    [SerializeField] GameObject inventory; 
+    [SerializeField] PopUpController inventoryController; 
     private List<NPC> interactibles;
     bool canMove = true;
     bool isMoving = false;
+    private bool inventoryOpen;
+
     public void Start()
     {
         interactibles = FindObjectsOfType<NPC>().ToList();
@@ -18,11 +24,13 @@ public class PlayerKeyboardMovement : MonoBehaviour
             item.onInteracted.AddListener(CantMove);
         }
         DialogueUISingleton.Instance.onCloseAll.AddListener(CanMove);
+        Consistency.Instance.onClothesChanged.AddListener(ChangeEquip);
     }
     // Update is called once per frame
     void Update()
     {
         PlayerMovement();
+        CheckInventory();
         HasStopedMoving();
     }
 
@@ -79,11 +87,6 @@ public class PlayerKeyboardMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
             return;
         isMoving = false;
-
-
-
-
-
     }
 
     void CantMove()
@@ -95,4 +98,42 @@ public class PlayerKeyboardMovement : MonoBehaviour
         canMove = true;
     }
 
+    public void ChangeEquip(ClothesClass cloth)
+    {
+        foreach (var item in clothes)
+        {
+            if (cloth.identificator == item.identificator)
+            {
+                item.library.spriteLibraryAsset = cloth.libraryAsset;
+                cloth.isEquiped = true;
+            }
+        }
+    }
+
+    private void CheckInventory()
+    {
+        if(Input.GetKeyDown(KeyCode.Q)) 
+        {
+            if (!inventoryOpen)
+                OpenInventory();
+            else
+                CloseInventory();
+        }
+    }
+
+    private void OpenInventory()
+    {
+        canMove = false;
+        inventoryOpen = true;
+        inventory.SetActive(true);
+        inventory.transform.position = Vector3.zero;
+        inventoryController.IventorySetup();
+    }
+
+    public void CloseInventory()
+    {
+        inventory.SetActive(false);
+        inventoryOpen = false;
+        CanMove();
+    }
 }

@@ -6,8 +6,8 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Enums;
 
-public enum Menus { Inventory = 0, Store = 1 };
 public class DialogueUISingleton : MonoBehaviour
 {
     public static DialogueUISingleton Instance;
@@ -16,6 +16,7 @@ public class DialogueUISingleton : MonoBehaviour
     [SerializeField] Button confirmButton;
     [SerializeField] Button negationButton;
     [SerializeField] GameObject storeMenu;
+    [SerializeField] PopUpController storeController;
 
     public TextMeshProUGUI dialogueUI;
     public TextMeshProUGUI dialogName;
@@ -83,16 +84,17 @@ public class DialogueUISingleton : MonoBehaviour
         }
     }
 
-    public void SetConfirmationValues(Menus menuType, string yes, string no)
+    public void SetConfirmationValues(Popups menuType, string yes, string no)
     {
         negationButton.onClick.RemoveAllListeners();
         confirmButton.onClick.RemoveAllListeners();
         switch (menuType)
         {
-            case Menus.Inventory:
+            case Popups.Inventory:
                 break;
-            case Menus.Store:
+            case Popups.Store:
                 confirmButton.onClick.AddListener(OpenStore);
+                confirmButton.onClick.AddListener(storeController.StoreSetup);
                 confirmButton.onClick.AddListener(() => DialogueStart(yes,false));
                 negationButton.onClick.AddListener(() => dialogueConfirmationUIObject.SetActive(false));
                 negationButton.onClick.AddListener(() => StartCoroutine(SetWaitInput()));

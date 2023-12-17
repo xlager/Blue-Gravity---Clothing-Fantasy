@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D.Animation;
+using Enums;
 
 [CreateAssetMenu(menuName = "ClothingSO")]
 public class ClothingSO : ScriptableObject
@@ -12,7 +13,10 @@ public class ClothingSO : ScriptableObject
 [Serializable]
 public class ClothesClass
 {
-    public SpriteLibraryAsset clothesList;
-    public ItemID clothType;
+    public SpriteLibraryAsset libraryAsset;
+    public ItemID clothID;
+    public ItemIdentificator identificator;
+    public int clothValue;
     public bool playerHave;
+    public bool isEquiped;
 }

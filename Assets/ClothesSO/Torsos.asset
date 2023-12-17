@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: Torsos
   m_EditorClassIdentifier: 
   clothesList:
-  - clothesList: {fileID: 7108339969198208228, guid: 4333b112857e8a1429afefacb4b0cbc9, type: 3}
-    clothType: 10
+  - libraryAsset: {fileID: 7108339969198208228, guid: 4333b112857e8a1429afefacb4b0cbc9, type: 3}
+    clothID: 10
+    identificator: 1
+    clothValue: 50
     playerHave: 1
-  - clothesList: {fileID: 7108339969198208228, guid: afff59fdeed4f794c88084a329be2362, type: 3}
-    clothType: 11
+    isEquiped: 1
+  - libraryAsset: {fileID: 7108339969198208228, guid: afff59fdeed4f794c88084a329be2362, type: 3}
+    clothID: 11
+    identificator: 1
+    clothValue: 100
     playerHave: 0
+    isEquiped: 0

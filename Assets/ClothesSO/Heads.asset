@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: Heads
   m_EditorClassIdentifier: 
   clothesList:
-  - clothesList: {fileID: 7108339969198208228, guid: f82ac67f66beafd4ebdaa8a7064fe643, type: 3}
-    clothType: 0
+  - libraryAsset: {fileID: 7108339969198208228, guid: f82ac67f66beafd4ebdaa8a7064fe643, type: 3}
+    clothID: 0
+    identificator: 0
+    clothValue: 50
     playerHave: 1
-  - clothesList: {fileID: 7108339969198208228, guid: 5c5ec93a67dbc6b41b078025bb5a82bb, type: 3}
-    clothType: 1
+    isEquiped: 1
+  - libraryAsset: {fileID: 7108339969198208228, guid: 5c5ec93a67dbc6b41b078025bb5a82bb, type: 3}
+    clothID: 1
+    identificator: 0
+    clothValue: 200
     playerHave: 0
+    isEquiped: 0

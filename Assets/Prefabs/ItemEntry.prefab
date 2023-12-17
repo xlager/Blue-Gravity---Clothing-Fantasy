@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1109817288413099226}
   - component: {fileID: 3406672899032498489}
   - component: {fileID: 5308030944820584023}
+  - component: {fileID: 7781461365126228583}
   m_Layer: 5
   m_Name: ItemEntry
   m_TagString: Untagged
@@ -151,6 +152,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503386891782406480}
   m_CullTransparentMesh: 1
+--- !u!114 &7781461365126228583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503386891782406480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b190bf0dd8b8ca46b1156407b5fa5e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneyText: {fileID: 2828421672370577863}
+  image: {fileID: 6848856184875998350}
+  coinIcon: {fileID: 4445032667435120391}
+  objectButton: {fileID: 3406672899032498489}
+  soldItem: {fileID: 2976237873926347155}
+  onBuyClicked:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1653161085414192031
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,7 +271,7 @@ GameObject:
   - component: {fileID: 4725526099484838218}
   - component: {fileID: 6372398884005407089}
   m_Layer: 5
-  m_Name: LockedEntry
+  m_Name: SoldEntry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

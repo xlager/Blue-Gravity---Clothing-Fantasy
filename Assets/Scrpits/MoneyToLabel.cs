@@ -10,5 +10,14 @@ public class MoneyToLabel : MonoBehaviour
     void Start()
     {
         playerMoneyLabel.text = Consistency.Instance.PlayerMoney.ToString();
+        Consistency.Instance.onMoneyChanged.AddListener(ChangeLabel);
+    }
+    void ChangeLabel()
+    {
+        playerMoneyLabel.text = Consistency.Instance.PlayerMoney.ToString();
+    }
+    private void OnDestroy()
+    {
+        Consistency.Instance.onMoneyChanged.RemoveAllListeners();
     }
 }

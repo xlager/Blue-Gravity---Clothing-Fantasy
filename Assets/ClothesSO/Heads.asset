@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cada39f7dbd80044cacfed4b9b80daee, type: 3}
+  m_Name: Heads
+  m_EditorClassIdentifier: 
+  clothesList:
+  - clothesList: {fileID: 7108339969198208228, guid: f82ac67f66beafd4ebdaa8a7064fe643, type: 3}
+    clothType: 0
+    playerHave: 1
+  - clothesList: {fileID: 7108339969198208228, guid: 5c5ec93a67dbc6b41b078025bb5a82bb, type: 3}
+    clothType: 1
+    playerHave: 0

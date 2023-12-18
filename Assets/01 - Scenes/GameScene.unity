@@ -698,7 +698,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 22
   m_TargetDisplay: 0
 --- !u!114 &194497380
 MonoBehaviour:
@@ -3544,7 +3544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 106}
   m_SizeDelta: {x: 1200.23, y: 737.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &803402341
@@ -3583,7 +3583,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 20
   m_TargetDisplay: 0
 --- !u!114 &803402343
 MonoBehaviour:
@@ -5435,7 +5435,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 25
   m_TargetDisplay: 0
 --- !u!114 &1116532130
 MonoBehaviour:
@@ -6588,6 +6588,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1756706477907634900, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230987316708861060, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230987316708861060, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230987316708861060, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3472045831857803804, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
       propertyPath: m_SpriteKey
       value: 2.962497e-36
@@ -6607,6 +6623,10 @@ PrefabInstance:
     - target: {fileID: 4224757569561631279, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
       propertyPath: m_SortingOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4694152595701312591, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4982480310786069500, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -6752,6 +6772,14 @@ PrefabInstance:
       propertyPath: itemEntryPrefab
       value: 
       objectReference: {fileID: 3082559424917477033, guid: d4e4f8a11d2bc8642b1dff8a0ebc4b25, type: 3}
+    - target: {fileID: 6709317041342194892, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6709317041342194892, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6936277169387913646, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -7153,7 +7181,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 20
   m_TargetDisplay: 0
 --- !u!1 &1483098887
 GameObject:
@@ -8020,7 +8048,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 56
+  m_SortingOrder: 10
   m_Sprite: {fileID: 99103507, guid: c5285667ae258b747a30072f183fbf59, type: 3}
   m_Color: {r: 0, g: 0.028727055, b: 1, a: 1}
   m_FlipX: 0

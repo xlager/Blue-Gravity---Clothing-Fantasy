@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cada39f7dbd80044cacfed4b9b80daee, type: 3}
+  m_Name: Weapon
+  m_EditorClassIdentifier: 
+  clothesList:
+  - libraryAsset: {fileID: 7108339969198208228, guid: a2b742ccbe03da948a4de41f040e5d73, type: 3}
+    clothID: 40
+    identificator: 4
+    clothValue: 150
+    playerHave: 0
+    isEquiped: 0

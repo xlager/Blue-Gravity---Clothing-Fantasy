@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cada39f7dbd80044cacfed4b9b80daee, type: 3}
+  m_Name: Torsos
+  m_EditorClassIdentifier: 
+  clothesList:
+  - libraryAsset: {fileID: 7108339969198208228, guid: 4333b112857e8a1429afefacb4b0cbc9, type: 3}
+    clothID: 10
+    identificator: 1
+    clothValue: 50
+    playerHave: 1
+    isEquiped: 0
+  - libraryAsset: {fileID: 7108339969198208228, guid: afff59fdeed4f794c88084a329be2362, type: 3}
+    clothID: 11
+    identificator: 1
+    clothValue: 400
+    playerHave: 0
+    isEquiped: 0
+  - libraryAsset: {fileID: 7108339969198208228, guid: 00277089edb014a458bb8bc7d609d7ea, type: 3}
+    clothID: 12
+    identificator: 1
+    clothValue: 1000
+    playerHave: 0
+    isEquiped: 0
+  - libraryAsset: {fileID: 7108339969198208228, guid: 15ec0593225281b4cb1900abfaf9ece5, type: 3}
+    clothID: 13
+    identificator: 1
+    clothValue: 150
+    playerHave: 0
+    isEquiped: 0
+  - libraryAsset: {fileID: 7108339969198208228, guid: 86e123fc94901694ca64ff1f08019654, type: 3}
+    clothID: 14
+    identificator: 1
+    clothValue: 200
+    playerHave: 0
+    isEquiped: 1

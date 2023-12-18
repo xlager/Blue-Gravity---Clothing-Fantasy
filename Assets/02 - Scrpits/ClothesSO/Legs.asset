@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cada39f7dbd80044cacfed4b9b80daee, type: 3}
+  m_Name: Legs
+  m_EditorClassIdentifier: 
+  clothesList:
+  - libraryAsset: {fileID: 7108339969198208228, guid: 552be329ce849d642b13266454ae714b, type: 3}
+    clothID: 20
+    identificator: 2
+    clothValue: 50
+    playerHave: 1
+    isEquiped: 1
+  - libraryAsset: {fileID: 7108339969198208228, guid: 30ad3744a158d7b41b676f8474d189b8, type: 3}
+    clothID: 21
+    identificator: 2
+    clothValue: 150
+    playerHave: 0
+    isEquiped: 0
+  - libraryAsset: {fileID: 7108339969198208228, guid: 941f9b6fd3c52ab4ea95f4c73e1a5282, type: 3}
+    clothID: 22
+    identificator: 2
+    clothValue: 300
+    playerHave: 0
+    isEquiped: 0

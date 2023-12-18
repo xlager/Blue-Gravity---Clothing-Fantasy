@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ba248e5e49c8b4eb755526818f1044, type: 3}
+  m_Name: BlueGuy
+  m_EditorClassIdentifier: 
+  SpeakerName: Blue guy
+  Conversation:
+  - I'm looking to buy something worth....
+  - THIS PIECE MIGHT BE IT
+  - THE BLUE THING!
+  menuType: 2
+  hasConfirmation: 0
+  whenIsConfirmation: -1
+  ConfirmationText: -1
+  NegationText: -1

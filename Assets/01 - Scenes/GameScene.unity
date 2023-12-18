@@ -4730,8 +4730,8 @@ RectTransform:
   - {fileID: 1772977258}
   - {fileID: 1504861593}
   - {fileID: 1706433335}
-  - {fileID: 1505524431}
   - {fileID: 1773693703}
+  - {fileID: 1505524431}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6698,11 +6698,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6384006894881986787, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
       propertyPath: m_Size.x
-      value: 0.55079377
+      value: 0.8312396
       objectReference: {fileID: 0}
     - target: {fileID: 6384006894881986787, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
       propertyPath: m_Size.y
-      value: 0.7200783
+      value: 0.8836715
       objectReference: {fileID: 0}
     - target: {fileID: 6384006894881986787, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
       propertyPath: m_Offset.x
@@ -6710,7 +6710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6384006894881986787, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
       propertyPath: m_Offset.y
-      value: -0.43786976
+      value: -0.309332
       objectReference: {fileID: 0}
     - target: {fileID: 6599519690112396030, guid: cf0f31429550b904ba476fdfe6f69f61, type: 3}
       propertyPath: m_Size.x
@@ -8929,19 +8929,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6346103037288820023, guid: fb48f4751649d9e4d8e1f90c93559d61, type: 3}
       propertyPath: m_Size.x
-      value: 1.2593002
+      value: 1.352782
       objectReference: {fileID: 0}
     - target: {fileID: 6346103037288820023, guid: fb48f4751649d9e4d8e1f90c93559d61, type: 3}
       propertyPath: m_Size.y
-      value: 1.2469251
+      value: 1.5040004
       objectReference: {fileID: 0}
     - target: {fileID: 6346103037288820023, guid: fb48f4751649d9e4d8e1f90c93559d61, type: 3}
       propertyPath: m_Offset.x
-      value: -0.001295805
+      value: 0.18566787
       objectReference: {fileID: 0}
     - target: {fileID: 6346103037288820023, guid: fb48f4751649d9e4d8e1f90c93559d61, type: 3}
       propertyPath: m_Offset.y
-      value: -0.23692119
+      value: -0.10838354
       objectReference: {fileID: 0}
     - target: {fileID: 8591888673832311681, guid: fb48f4751649d9e4d8e1f90c93559d61, type: 3}
       propertyPath: m_Sprite
@@ -8963,6 +8963,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.645283
       objectReference: {fileID: 0}
+    - target: {fileID: 8666801970325753388, guid: fb48f4751649d9e4d8e1f90c93559d61, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8666801970325753390, guid: fb48f4751649d9e4d8e1f90c93559d61, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -8977,7 +8981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8666801970873517996, guid: fb48f4751649d9e4d8e1f90c93559d61, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8666801970873517996, guid: fb48f4751649d9e4d8e1f90c93559d61, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10136,7 +10140,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 3
+          m_FloatArgument: 2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -10997,7 +11001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8666801970325753388, guid: fb48f4751649d9e4d8e1f90c93559d61, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8666801970325753390, guid: fb48f4751649d9e4d8e1f90c93559d61, type: 3}
       propertyPath: m_IsActive

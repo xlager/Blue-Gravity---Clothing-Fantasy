@@ -1,9 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Enums;
-using UnityEditor.SearchService;
 
 public class SceneLoadController : MonoBehaviour
 {

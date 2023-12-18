@@ -1,10 +1,8 @@
 using Enums;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using static UnityEditor.Progress;
 
 public class PopUpController : MonoBehaviour
 {
